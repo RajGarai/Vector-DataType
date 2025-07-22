@@ -7,7 +7,7 @@ class Vector3D:
         self.k = k
 
     def __str__(self):
-        return "({}i) + ({}j) + ({}k)".format(self.i, self.j, self.k)
+        return "{}i+{}j+{}k".format(self.i, self.j, self.k)
 
     def get_X(self):
         return self.i
